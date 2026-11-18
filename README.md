@@ -1,5 +1,8 @@
 # cron-lens
 
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A zero-dependency Python CLI tool to inspect, validate, explain, and simulate standard 5-field cron expressions.
 
 ## Features
@@ -37,7 +40,7 @@ cron-lens "0 9 * * MON-FRI" --next 5
 cron-lens "@monthly" --next 3 --from 2026-01-15T10:00:00
 ```
 
-### Example Output
+## Example Output
 
 ```text
 Expression : */15 9-18 * * 1-5
